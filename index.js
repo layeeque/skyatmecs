@@ -17,7 +17,7 @@ restService.post('/echo', function(req, res) {
 
      var obj="";
   //  //var api = "https://www.googleapis.com/customsearch/v1?key=AIzaSyAbMVp_Kmi6Ixrh6RfVLAbW_mMAY0O7itQ&cx=013351406654656600973:5gj2eij-z1i&q=encodeURIComponent("+c+")";
-    var api = "https://www.googleapis.com/customsearch/v1?key=AIzaSyAbMVp_Kmi6Ixrh6RfVLAbW_mMAY0O7itQ&cx=013351406654656600973:5gj2eij-z1i&q="+c;
+    var api = "https://www.googleapis.com/customsearch/v1?key=AIzaSyA7KrUzoeYckZBtRThI4KB_obOHeAocJUw&cx=008329582271722688199:phx8k84jxow&q="+c;
     
   
          https.get(api, (response) => {
